@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Verify Mobile Number..."
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="#FF5E5E"/>
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/create"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/password"/>
+    <TextView
+        android:id="@+id/otp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Enter Your O.T.P"
+        android:layout_below="@+id/icon1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/enterotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otp1"
+        android:layout_marginTop="13dp"/>
+    <TextView
+        android:id="@+id/resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="If You Don't Receive O.T.P"
+        android:layout_below="@+id/enterotp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/resend1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Resend"
+        android:layout_below="@+id/resend"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF5E5E"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify "
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:backgroundTint="#0A1D20"
+        android:layout_below="@+id/resend1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
